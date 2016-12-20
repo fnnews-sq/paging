@@ -16,7 +16,7 @@ require(['fw','paging'],function(fw,paging){
         pageIndex:1,
         pageElementSort: ['page','jump', 'info','size'],
         remote: {
-            url: '/pagesize-plug/fw-module/json/wechat.js',//ajax请求地址
+            url: 'fw-module/json/wechat.js',//ajax请求地址
             type:'GET',
             pageParams:function(data){//请求参数
                 return{
